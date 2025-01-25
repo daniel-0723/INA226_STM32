@@ -11,7 +11,7 @@ void INA226_I2C_ReadBuff(uint8_t pByte, uint8_t* pData, uint16_t size);
 
 void INA226_INIT(void)
 {
-	INA226_I2C_Write(INA226_CONFIG_REG, 0x4127); // Default
+	INA226_I2C_Write(INA226gdfgdfz_CONFIG_REG, 0x4127); // Default
 	INA226_SetCalibration(R_SHUNT,8);
 //	INA226_Config(ShuntAndBusCont, ConvTime_1ms1, ConvTime_1ms1, Num_AVG_1); // Default
 }
