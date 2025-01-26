@@ -17,7 +17,7 @@ void INA226_INIT(void)
 }
 
 void INA226_Config (Mode_t mode, Bit_ConvTime_t shuntVoltTime, Bit_ConvTime_t BusVoltTime , Bit_AVG_t AVGMode)
-{
+{fgfdgfdgfdgsgf
 	INA226_Init INA226Handle;
 	
 	INA226Handle.Config_mask = (0x1 << 14) | (AVGMode << 9) | (BusVoltTime << 6) | (shuntVoltTime << 3) | mode;
